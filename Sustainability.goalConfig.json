@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "66cda849619d8986359de835"
+  },
+  "pillarName": "Energy",
+  "year": "2024",
+  "questions": [
+    {
+      "text": "We will use <field_id_1> renewable energy in our <field_id_2> by the year <field_id_3>.",
+      "inputFields": [
+        {
+          "label": "percentage",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "dropdown",
+          "inputType": "dropdown",
+          "options": [
+            "Supplychain",
+            "Operations",
+            "Manufacturing"
+          ],
+          "isMandatory": true,
+          "inputId": "field_id_2"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_3"
+        }
+      ],
+      "validations": [
+        {
+          "type": "UNIQUE_FIELD_COMBINATION",
+          "validationQuestionId": "qstn_id_1"
+        }
+      ],
+      "questionId": "qstn_id_1"
+    },
+    {
+      "text": "We will implement <field_id_1> in our <field_id_2> to generate <field_id_3> Kilowatt of electricity annually by the year <field_id_4>.",
+      "inputFields": [
+        {
+          "label": "dropdown",
+          "inputType": "dropdown",
+          "options": [
+            "Solar power plants",
+            "Wind turbines",
+            "Hydropower"
+          ],
+          "isMandatory": true,
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "dropdown",
+          "inputType": "dropdown",
+          "options": [
+            "business",
+            "operations",
+            "facilities"
+          ],
+          "isMandatory": true,
+          "inputId": "field_id_2"
+        },
+        {
+          "label": "number",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_3"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_4"
+        }
+      ],
+      "validations": [
+        {
+          "type": "OPTION_QUESTION",
+          "relatedIds": [
+            "energy_qstn1"
+          ],
+          "validationQuestionId": "qstn_id_1"
+        }
+      ],
+      "questionId": "qstn_id_2"
+    },
+    {
+      "text": "We will decrease <field_id_1> of conventional energy by the year <field_id_2>.",
+      "inputFields": [
+        {
+          "label": "percentage",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_2"
+        }
+      ],
+      "validations": [
+        {
+          "type": "UNIQUE_FIELD_COMBINATION",
+          "validationQuestionId": "qstn_id_1"
+        }
+      ],
+      "questionId": "qstn_id_3"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cda909619d8986359de836"
+  },
+  "pillarName": "Waste",
+  "year": "2024",
+  "questions": [
+    {
+      "text": "We will eliminate <field_id_1>% of the <field_id_2> waste by the year <field_id_3>.",
+      "inputFields": [
+        {
+          "label": "percentage",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "dropdown",
+          "inputType": "dropdown",
+          "options": [
+            "Electronics",
+            "Plastic",
+            "Paper",
+            "Organic"
+          ],
+          "isMandatory": true,
+          "inputId": "field_id_2"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_3"
+        }
+      ],
+      "validations": [
+        {
+          "type": "UNIQUE_FIELD_COMBINATION",
+          "validationQuestionId": "qstn_id_1"
+        }
+      ],
+      "questionId": "qstn_id_1"
+    },
+    {
+      "text": "We will have <field_id_1>% of waste recycled from landfill by the year <field_id_2>.",
+      "inputFields": [
+        {
+          "label": "percentage",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_2"
+        }
+      ],
+      "validations": [
+        {
+          "type": "UNIQUE_FIELD_COMBINATION",
+          "validationQuestionId": "qstn_id_1"
+        }
+      ],
+      "questionId": "qstn_id_2"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cda981619d8986359de838"
+  },
+  "pillarName": "Packaging",
+  "year": "2024",
+  "questions": [
+    {
+      "text": "We will redesign <field_id_1>% of our <field_id_2> packaging material to be recyclable by the year <field_id_3>.",
+      "inputFields": [
+        {
+          "label": "percentage",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "dropdown",
+          "inputType": "dropdown",
+          "options": [
+            "PVC",
+            "Plastic",
+            "Cardboard",
+            "Metal"
+          ],
+          "isMandatory": true,
+          "inputId": "field_id_2"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_3"
+        }
+      ],
+      "validations": [
+        {
+          "type": "UNIQUE_FIELD_COMBINATION",
+          "validationQuestionId": "qstn_id_1"
+        }
+      ],
+      "questionId": "qstn_id_1"
+    },
+    {
+      "text": "We will substitute our <field_id_1>% of <field_id_2> packaging materials with more sustainable alternatives by the year <field_id_3>.",
+      "inputFields": [
+        {
+          "label": "percentage",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "dropdown",
+          "inputType": "dropdown",
+          "options": [
+            "Plastic",
+            "PVC",
+            "Styrofoam",
+            "Glass"
+          ],
+          "isMandatory": true,
+          "inputId": "field_id_2"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_3"
+        }
+      ],
+      "validations": [
+        {
+          "questionId": "qstn_id_2",
+          "type": "UNIQUE_FIELD_COMBINATION"
+        }
+      ],
+      "questionId": "qstn_id_2"
+    },
+    {
+      "text": "We will encourage our suppliers to reduce their CHG emissions by <field_id_1>% by providing more sustainable products by the year <field_id_2>.",
+      "inputFields": [
+        {
+          "label": "percentage",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_1"
+        },
+        {
+          "label": "year",
+          "inputType": "number",
+          "isMandatory": true,
+          "minValue": "",
+          "maxValue": "",
+          "inputId": "field_id_2"
+        }
+      ],
+      "validations": [
+        {
+          "type": "UNIQUE_FIELD_COMBINATION",
+          "validationQuestionId": "packaging_qstn3"
+        }
+      ],
+      "questionId": "qstn_id_3"
+    }
+  ]
+}]

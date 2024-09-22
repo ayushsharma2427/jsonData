@@ -1,0 +1,167 @@
+[{
+  "_id": {
+    "$oid": "66eef593dd69e958abacec93"
+  },
+  "supplierId": "101",
+  "year": "2024",
+  "pillarName": "Energy",
+  "goalAnswers": [
+    {
+      "questionId": "qstn_id_1",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "67"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "Supplychain"
+        },
+        {
+          "fieldId": "field_id_3",
+          "value": "2024"
+        }
+      ]
+    },
+    {
+      "questionId": "qstn_id_2",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "Hydropower"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "business"
+        },
+        {
+          "fieldId": "field_id_3",
+          "value": "897"
+        },
+        {
+          "fieldId": "field_id_4",
+          "value": "2026"
+        }
+      ]
+    },
+    {
+      "questionId": "qstn_id_3",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "78"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "2029"
+        }
+      ]
+    }
+  ],
+  "updatedDt": "19-09-2024",
+  "updatedUser": "tej",
+  "_class": "com.project.sustainability.model.goals.Goal"
+},
+{
+  "_id": {
+    "$oid": "66eef5eedd69e958abacec94"
+  },
+  "supplierId": "101",
+  "year": "2024",
+  "pillarName": "Packaging",
+  "goalAnswers": [
+    {
+      "questionId": "qstn_id_1",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "67"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "PVC"
+        },
+        {
+          "fieldId": "field_id_3",
+          "value": "2024"
+        }
+      ]
+    },
+    {
+      "questionId": "qstn_id_2",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "78"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "plastic"
+        },
+        {
+          "fieldId": "field_id_3",
+          "value": "8907"
+        }
+      ]
+    },
+    {
+      "questionId": "qstn_id_3",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "78"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "2029"
+        }
+      ]
+    }
+  ],
+  "updatedDt": "19-09-2024",
+  "updatedUser": "tej",
+  "_class": "com.project.sustainability.model.goals.Goal"
+},
+{
+  "_id": {
+    "$oid": "66eef63ddd69e958abacec95"
+  },
+  "supplierId": "101",
+  "year": "2024",
+  "pillarName": "Waste",
+  "goalAnswers": [
+    {
+      "questionId": "qstn_id_1",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "67"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "Plastic"
+        },
+        {
+          "fieldId": "field_id_3",
+          "value": "2024"
+        }
+      ]
+    },
+    {
+      "questionId": "qstn_id_2",
+      "response": [
+        {
+          "fieldId": "field_id_1",
+          "value": "78"
+        },
+        {
+          "fieldId": "field_id_2",
+          "value": "7889"
+        }
+      ]
+    }
+  ],
+  "updatedDt": "19-09-2024",
+  "updatedUser": "tej",
+  "_class": "com.project.sustainability.model.goals.Goal"
+}]
